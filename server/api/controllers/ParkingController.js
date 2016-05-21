@@ -11,5 +11,11 @@ module.exports = {
 	    if (err) return res.serverError(err);
 	    return res.json(results[0]);
 	  });
+	},
+	getById: function (req, res) {
+		Parking.query('CALL GET_PARKING_BY_ID(' + req.query.id + ')', function(err, results) {
+	    if (err) return res.serverError(err);
+	    return res.json(results[0]);
+	  });
 	}
 };
