@@ -1,445 +1,65 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
-2 info using npm@3.9.0
-3 info using node@v0.10.25
-4 verbose node symlink /usr/bin/node
-5 silly loadCurrentTree Starting
-6 silly install loadCurrentTree
-7 silly install readLocalPackageData
-8 silly install normalizeTree
-9 silly loadCurrentTree Finishing
-10 silly loadIdealTree Starting
-11 silly install loadIdealTree
-12 silly cloneCurrentTree Starting
-13 silly install cloneCurrentTreeToIdealTree
-14 silly cloneCurrentTree Finishing
-15 silly loadShrinkwrap Starting
-16 silly install loadShrinkwrap
-17 silly loadShrinkwrap Finishing
-18 silly loadAllDepsIntoIdealTree Starting
-19 silly install loadAllDepsIntoIdealTree
-20 silly fetchNamedPackageData ejs
-21 silly mapToRegistry name ejs
-22 silly mapToRegistry using default registry
-23 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-24 silly mapToRegistry data { raw: 'ejs',
-24 silly mapToRegistry   scope: null,
-24 silly mapToRegistry   name: 'ejs',
-24 silly mapToRegistry   rawSpec: '',
-24 silly mapToRegistry   spec: 'latest',
-24 silly mapToRegistry   type: 'tag' }
-25 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/ejs
-26 silly fetchNamedPackageData grunt
-27 silly mapToRegistry name grunt
-28 silly mapToRegistry using default registry
-29 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-30 silly mapToRegistry data { raw: 'grunt',
-30 silly mapToRegistry   scope: null,
-30 silly mapToRegistry   name: 'grunt',
-30 silly mapToRegistry   rawSpec: '',
-30 silly mapToRegistry   spec: 'latest',
-30 silly mapToRegistry   type: 'tag' }
-31 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt
-32 silly fetchNamedPackageData grunt-contrib-clean
-33 silly mapToRegistry name grunt-contrib-clean
-34 silly mapToRegistry using default registry
-35 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-36 silly mapToRegistry data { raw: 'grunt-contrib-clean',
-36 silly mapToRegistry   scope: null,
-36 silly mapToRegistry   name: 'grunt-contrib-clean',
-36 silly mapToRegistry   rawSpec: '',
-36 silly mapToRegistry   spec: 'latest',
-36 silly mapToRegistry   type: 'tag' }
-37 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-clean
-38 silly fetchNamedPackageData grunt-contrib-coffee
-39 silly mapToRegistry name grunt-contrib-coffee
-40 silly mapToRegistry using default registry
-41 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-42 silly mapToRegistry data { raw: 'grunt-contrib-coffee',
-42 silly mapToRegistry   scope: null,
-42 silly mapToRegistry   name: 'grunt-contrib-coffee',
-42 silly mapToRegistry   rawSpec: '',
-42 silly mapToRegistry   spec: 'latest',
-42 silly mapToRegistry   type: 'tag' }
-43 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-coffee
-44 silly fetchNamedPackageData grunt-contrib-concat
-45 silly mapToRegistry name grunt-contrib-concat
-46 silly mapToRegistry using default registry
-47 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-48 silly mapToRegistry data { raw: 'grunt-contrib-concat',
-48 silly mapToRegistry   scope: null,
-48 silly mapToRegistry   name: 'grunt-contrib-concat',
-48 silly mapToRegistry   rawSpec: '',
-48 silly mapToRegistry   spec: 'latest',
-48 silly mapToRegistry   type: 'tag' }
-49 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-concat
-50 silly fetchNamedPackageData grunt-contrib-copy
-51 silly mapToRegistry name grunt-contrib-copy
-52 silly mapToRegistry using default registry
-53 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-54 silly mapToRegistry data { raw: 'grunt-contrib-copy',
-54 silly mapToRegistry   scope: null,
-54 silly mapToRegistry   name: 'grunt-contrib-copy',
-54 silly mapToRegistry   rawSpec: '',
-54 silly mapToRegistry   spec: 'latest',
-54 silly mapToRegistry   type: 'tag' }
-55 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-copy
-56 silly fetchNamedPackageData grunt-contrib-cssmin
-57 silly mapToRegistry name grunt-contrib-cssmin
-58 silly mapToRegistry using default registry
-59 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-60 silly mapToRegistry data { raw: 'grunt-contrib-cssmin',
-60 silly mapToRegistry   scope: null,
-60 silly mapToRegistry   name: 'grunt-contrib-cssmin',
-60 silly mapToRegistry   rawSpec: '',
-60 silly mapToRegistry   spec: 'latest',
-60 silly mapToRegistry   type: 'tag' }
-61 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-cssmin
-62 silly fetchNamedPackageData grunt-contrib-jst
-63 silly mapToRegistry name grunt-contrib-jst
-64 silly mapToRegistry using default registry
-65 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-66 silly mapToRegistry data { raw: 'grunt-contrib-jst',
-66 silly mapToRegistry   scope: null,
-66 silly mapToRegistry   name: 'grunt-contrib-jst',
-66 silly mapToRegistry   rawSpec: '',
-66 silly mapToRegistry   spec: 'latest',
-66 silly mapToRegistry   type: 'tag' }
-67 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-jst
-68 silly fetchNamedPackageData grunt-contrib-less
-69 silly mapToRegistry name grunt-contrib-less
-70 silly mapToRegistry using default registry
-71 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-72 silly mapToRegistry data { raw: 'grunt-contrib-less',
-72 silly mapToRegistry   scope: null,
-72 silly mapToRegistry   name: 'grunt-contrib-less',
-72 silly mapToRegistry   rawSpec: '',
-72 silly mapToRegistry   spec: 'latest',
-72 silly mapToRegistry   type: 'tag' }
-73 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-less
-74 silly fetchNamedPackageData grunt-contrib-uglify
-75 silly mapToRegistry name grunt-contrib-uglify
-76 silly mapToRegistry using default registry
-77 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-78 silly mapToRegistry data { raw: 'grunt-contrib-uglify',
-78 silly mapToRegistry   scope: null,
-78 silly mapToRegistry   name: 'grunt-contrib-uglify',
-78 silly mapToRegistry   rawSpec: '',
-78 silly mapToRegistry   spec: 'latest',
-78 silly mapToRegistry   type: 'tag' }
-79 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-uglify
-80 silly fetchNamedPackageData grunt-contrib-watch
-81 silly mapToRegistry name grunt-contrib-watch
-82 silly mapToRegistry using default registry
-83 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-84 silly mapToRegistry data { raw: 'grunt-contrib-watch',
-84 silly mapToRegistry   scope: null,
-84 silly mapToRegistry   name: 'grunt-contrib-watch',
-84 silly mapToRegistry   rawSpec: '',
-84 silly mapToRegistry   spec: 'latest',
-84 silly mapToRegistry   type: 'tag' }
-85 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-watch
-86 silly fetchNamedPackageData grunt-sails-linker
-87 silly mapToRegistry name grunt-sails-linker
-88 silly mapToRegistry using default registry
-89 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-90 silly mapToRegistry data { raw: 'grunt-sails-linker',
-90 silly mapToRegistry   scope: null,
-90 silly mapToRegistry   name: 'grunt-sails-linker',
-90 silly mapToRegistry   rawSpec: '',
-90 silly mapToRegistry   spec: 'latest',
-90 silly mapToRegistry   type: 'tag' }
-91 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-sails-linker
-92 silly fetchNamedPackageData grunt-sync
-93 silly mapToRegistry name grunt-sync
-94 silly mapToRegistry using default registry
-95 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-96 silly mapToRegistry data { raw: 'grunt-sync',
-96 silly mapToRegistry   scope: null,
-96 silly mapToRegistry   name: 'grunt-sync',
-96 silly mapToRegistry   rawSpec: '',
-96 silly mapToRegistry   spec: 'latest',
-96 silly mapToRegistry   type: 'tag' }
-97 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/grunt-sync
-98 silly fetchNamedPackageData include-all
-99 silly mapToRegistry name include-all
-100 silly mapToRegistry using default registry
-101 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-102 silly mapToRegistry data { raw: 'include-all',
-102 silly mapToRegistry   scope: null,
-102 silly mapToRegistry   name: 'include-all',
-102 silly mapToRegistry   rawSpec: '',
-102 silly mapToRegistry   spec: 'latest',
-102 silly mapToRegistry   type: 'tag' }
-103 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/include-all
-104 silly fetchNamedPackageData rc
-105 silly mapToRegistry name rc
-106 silly mapToRegistry using default registry
-107 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-108 silly mapToRegistry data { raw: 'rc',
-108 silly mapToRegistry   scope: null,
-108 silly mapToRegistry   name: 'rc',
-108 silly mapToRegistry   rawSpec: '',
-108 silly mapToRegistry   spec: 'latest',
-108 silly mapToRegistry   type: 'tag' }
-109 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/rc
-110 silly fetchNamedPackageData sails-disk
-111 silly mapToRegistry name sails-disk
-112 silly mapToRegistry using default registry
-113 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
-114 silly mapToRegistry data { raw: 'sails-disk',
-114 silly mapToRegistry   scope: null,
-114 silly mapToRegistry   name: 'sails-disk',
-114 silly mapToRegistry   rawSpec: '',
-114 silly mapToRegistry   spec: 'latest',
-114 silly mapToRegistry   type: 'tag' }
-115 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/sails-disk
-116 verbose request uri http://ads-npm.advertising.aol.com:4873/ejs
-117 verbose request no auth needed
-118 info attempt registry request try #1 at 10:16:35
-119 verbose request id ccfbc0515987db81
-120 http request GET http://ads-npm.advertising.aol.com:4873/ejs
-121 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt
-122 verbose request no auth needed
-123 info attempt registry request try #1 at 10:16:35
-124 http request GET http://ads-npm.advertising.aol.com:4873/grunt
-125 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-clean
-126 verbose request no auth needed
-127 info attempt registry request try #1 at 10:16:35
-128 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-clean
-129 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-copy
-130 verbose request no auth needed
-131 info attempt registry request try #1 at 10:16:35
-132 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-copy
-133 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-jst
-134 verbose request no auth needed
-135 info attempt registry request try #1 at 10:16:35
-136 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-jst
-137 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-coffee
-138 verbose request no auth needed
-139 info attempt registry request try #1 at 10:16:35
-140 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-coffee
-141 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-uglify
-142 verbose request no auth needed
-143 info attempt registry request try #1 at 10:16:35
-144 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-uglify
-145 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-less
-146 verbose request no auth needed
-147 info attempt registry request try #1 at 10:16:35
-148 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-less
-149 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-watch
-150 verbose request no auth needed
-151 info attempt registry request try #1 at 10:16:35
-152 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-watch
-153 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-sails-linker
-154 verbose request no auth needed
-155 info attempt registry request try #1 at 10:16:35
-156 http request GET http://ads-npm.advertising.aol.com:4873/grunt-sails-linker
-157 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-sync
-158 verbose request no auth needed
-159 info attempt registry request try #1 at 10:16:35
-160 http request GET http://ads-npm.advertising.aol.com:4873/grunt-sync
-161 verbose request uri http://ads-npm.advertising.aol.com:4873/include-all
-162 verbose request no auth needed
-163 info attempt registry request try #1 at 10:16:35
-164 http request GET http://ads-npm.advertising.aol.com:4873/include-all
-165 verbose request uri http://ads-npm.advertising.aol.com:4873/rc
-166 verbose request no auth needed
-167 info attempt registry request try #1 at 10:16:35
-168 http request GET http://ads-npm.advertising.aol.com:4873/rc
-169 verbose request uri http://ads-npm.advertising.aol.com:4873/sails-disk
-170 verbose request no auth needed
-171 info attempt registry request try #1 at 10:16:35
-172 http request GET http://ads-npm.advertising.aol.com:4873/sails-disk
-173 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-concat
-174 verbose request no auth needed
-175 info attempt registry request try #1 at 10:16:35
-176 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-concat
-177 verbose request uri http://ads-npm.advertising.aol.com:4873/grunt-contrib-cssmin
-178 verbose request no auth needed
-179 info attempt registry request try #1 at 10:16:35
-180 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-cssmin
-181 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-182 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-183 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-184 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-185 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-186 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-187 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-188 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-189 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-190 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-191 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-192 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-193 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-194 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-195 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-196 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-197 info attempt registry request try #2 at 10:16:46
-198 http request GET http://ads-npm.advertising.aol.com:4873/ejs
-199 info attempt registry request try #2 at 10:16:46
-200 http request GET http://ads-npm.advertising.aol.com:4873/grunt
-201 info attempt registry request try #2 at 10:16:46
-202 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-clean
-203 info attempt registry request try #2 at 10:16:46
-204 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-copy
-205 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-206 info attempt registry request try #2 at 10:16:46
-207 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-jst
-208 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-209 info attempt registry request try #2 at 10:16:46
-210 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-coffee
-211 info attempt registry request try #2 at 10:16:46
-212 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-uglify
-213 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-214 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-215 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-216 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-217 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-218 info attempt registry request try #2 at 10:16:46
-219 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-less
-220 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-221 info attempt registry request try #2 at 10:16:46
-222 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-watch
-223 info attempt registry request try #2 at 10:16:47
-224 http request GET http://ads-npm.advertising.aol.com:4873/grunt-sails-linker
-225 info attempt registry request try #2 at 10:16:47
-226 http request GET http://ads-npm.advertising.aol.com:4873/grunt-sync
-227 info attempt registry request try #2 at 10:16:47
-228 http request GET http://ads-npm.advertising.aol.com:4873/include-all
-229 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-230 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-231 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-232 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-233 info attempt registry request try #2 at 10:16:47
-234 http request GET http://ads-npm.advertising.aol.com:4873/rc
-235 info attempt registry request try #2 at 10:16:47
-236 http request GET http://ads-npm.advertising.aol.com:4873/sails-disk
-237 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-238 info attempt registry request try #2 at 10:16:47
-239 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-concat
-240 info attempt registry request try #2 at 10:16:47
-241 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-cssmin
-242 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-243 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-244 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-245 info attempt registry request try #3 at 10:17:46
-246 http request GET http://ads-npm.advertising.aol.com:4873/ejs
-247 info attempt registry request try #3 at 10:17:46
-248 http request GET http://ads-npm.advertising.aol.com:4873/grunt
-249 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-249 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-249 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-249 silly fetchPackageMetaData  error for ejs@2.3.4 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-250 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-250 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-250 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-250 silly fetchPackageMetaData  error for grunt@0.4.5 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-251 info attempt registry request try #3 at 10:17:46
-252 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-clean
-253 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-253 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-253 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-253 silly fetchPackageMetaData  error for grunt-contrib-clean@0.6.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-254 info attempt registry request try #3 at 10:17:46
-255 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-copy
-256 info attempt registry request try #3 at 10:17:46
-257 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-jst
-258 info attempt registry request try #3 at 10:17:46
-259 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-coffee
-260 info attempt registry request try #3 at 10:17:46
-261 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-uglify
-262 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-262 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-262 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-262 silly fetchPackageMetaData  error for grunt-contrib-copy@0.5.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-263 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-263 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-263 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-263 silly fetchPackageMetaData  error for grunt-contrib-jst@0.6.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-264 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-264 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-264 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-264 silly fetchPackageMetaData  error for grunt-contrib-coffee@0.13.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-265 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-265 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-265 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-265 silly fetchPackageMetaData  error for grunt-contrib-uglify@0.7.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-266 info attempt registry request try #3 at 10:17:46
-267 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-less
-268 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-268 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-268 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-268 silly fetchPackageMetaData  error for grunt-contrib-less@1.1.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-269 info attempt registry request try #3 at 10:17:47
-270 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-watch
-271 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-271 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-271 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-271 silly fetchPackageMetaData  error for grunt-contrib-watch@0.5.3 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-272 info attempt registry request try #3 at 10:17:47
-273 http request GET http://ads-npm.advertising.aol.com:4873/grunt-sails-linker
-274 info attempt registry request try #3 at 10:17:47
-275 http request GET http://ads-npm.advertising.aol.com:4873/grunt-sync
-276 info attempt registry request try #3 at 10:17:47
-277 http request GET http://ads-npm.advertising.aol.com:4873/include-all
-278 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-278 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-278 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-278 silly fetchPackageMetaData  error for grunt-sails-linker@~0.10.1 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-279 info attempt registry request try #3 at 10:17:47
-280 http request GET http://ads-npm.advertising.aol.com:4873/rc
-281 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-281 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-281 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-281 silly fetchPackageMetaData  error for grunt-sync@0.2.4 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-282 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-282 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-282 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-282 silly fetchPackageMetaData  error for include-all@~0.1.6 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-283 info attempt registry request try #3 at 10:17:47
-284 http request GET http://ads-npm.advertising.aol.com:4873/sails-disk
-285 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-285 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-285 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-285 silly fetchPackageMetaData  error for rc@1.0.1 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-286 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-286 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-286 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-286 silly fetchPackageMetaData  error for sails-disk@~0.10.9 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-287 info attempt registry request try #3 at 10:17:47
-288 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-concat
-289 info attempt registry request try #3 at 10:17:47
-290 http request GET http://ads-npm.advertising.aol.com:4873/grunt-contrib-cssmin
-291 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-291 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-291 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-291 silly fetchPackageMetaData  error for grunt-contrib-concat@0.5.1 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-292 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND
-292 silly fetchPackageMetaData     at errnoException (dns.js:37:11)
-292 silly fetchPackageMetaData     at Object.onanswer [as oncomplete] (dns.js:124:16)
-292 silly fetchPackageMetaData  error for grunt-contrib-cssmin@0.9.0 { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' }
-293 silly rollbackFailedOptional Starting
-294 silly rollbackFailedOptional Finishing
-295 silly runTopLevelLifecycles Starting
-296 silly runTopLevelLifecycles Finishing
-297 silly install printInstalled
-298 verbose stack Error: getaddrinfo ENOTFOUND
-298 verbose stack     at errnoException (dns.js:37:11)
-298 verbose stack     at Object.onanswer [as oncomplete] (dns.js:124:16)
-299 verbose cwd /home/arojas/EasyParking/server/EasyParking
-300 error Linux 4.2.0-36-generic
-301 error argv "node" "/usr/local/bin/npm" "install"
-302 error node v0.10.25
-303 error npm  v3.9.0
-304 error code ENOTFOUND
-305 error errno ENOTFOUND
-306 error syscall getaddrinfo
-307 error network getaddrinfo ENOTFOUND
-308 error network This is most likely not a problem with npm itself
-308 error network and is related to network connectivity.
-308 error network In most cases you are behind a proxy or have bad network settings.
-308 error network
-308 error network If you are behind a proxy, please make sure that the
-308 error network 'proxy' config is set properly.  See: 'npm help config'
-309 verbose exit [ 1, true ]
+1 verbose cli [ '/home/arojas/.nvm/versions/node/v4.4.4/bin/node',
+1 verbose cli   '/home/arojas/.nvm/versions/node/v4.4.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'sails-mysql',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of /home/arojas/EasyParking/server/package.json
+5 verbose installManyTop reading scoped package data from /home/arojas/EasyParking/server/node_modules/sails/package.json
+6 verbose readDependencies loading dependencies from /home/arojas/EasyParking/server/package.json
+7 silly cache add args [ 'sails-mysql', null ]
+8 verbose cache add spec sails-mysql
+9 silly cache add parsed spec Result {
+9 silly cache add   raw: 'sails-mysql',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'sails-mysql',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: 'latest',
+9 silly cache add   type: 'tag' }
+10 silly addNamed sails-mysql@latest
+11 verbose addNamed "latest" is being treated as a dist-tag for sails-mysql
+12 info addNameTag [ 'sails-mysql', 'latest' ]
+13 silly mapToRegistry name sails-mysql
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry http://ads-npm.advertising.aol.com:4873/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: 'sails-mysql',
+16 silly mapToRegistry   scope: null,
+16 silly mapToRegistry   name: 'sails-mysql',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag' }
+17 silly mapToRegistry uri http://ads-npm.advertising.aol.com:4873/sails-mysql
+18 verbose addNameTag registry:http://ads-npm.advertising.aol.com:4873/sails-mysql not in flight; fetching
+19 verbose request uri http://ads-npm.advertising.aol.com:4873/sails-mysql
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 10:59:47
+22 verbose request id 2d64f94237f9c14d
+23 http request GET http://ads-npm.advertising.aol.com:4873/sails-mysql
+24 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND ads-npm.advertising.aol.com ads-npm.advertising.aol.com:4873
+25 info attempt registry request try #2 at 10:59:58
+26 http request GET http://ads-npm.advertising.aol.com:4873/sails-mysql
+27 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND ads-npm.advertising.aol.com ads-npm.advertising.aol.com:4873
+28 info attempt registry request try #3 at 11:00:59
+29 http request GET http://ads-npm.advertising.aol.com:4873/sails-mysql
+30 verbose stack Error: getaddrinfo ENOTFOUND ads-npm.advertising.aol.com ads-npm.advertising.aol.com:4873
+30 verbose stack     at errnoException (dns.js:27:10)
+30 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+31 verbose cwd /home/arojas/EasyParking/server
+32 error Linux 4.2.0-36-generic
+33 error argv "/home/arojas/.nvm/versions/node/v4.4.4/bin/node" "/home/arojas/.nvm/versions/node/v4.4.4/bin/npm" "install" "sails-mysql" "--save"
+34 error node v4.4.4
+35 error npm  v2.15.1
+36 error code ENOTFOUND
+37 error errno ENOTFOUND
+38 error syscall getaddrinfo
+39 error network getaddrinfo ENOTFOUND ads-npm.advertising.aol.com ads-npm.advertising.aol.com:4873
+39 error network This is most likely not a problem with npm itself
+39 error network and is related to network connectivity.
+39 error network In most cases you are behind a proxy or have bad network settings.
+39 error network
+39 error network If you are behind a proxy, please make sure that the
+39 error network 'proxy' config is set properly.  See: 'npm help config'
+40 verbose exit [ 1, true ]
