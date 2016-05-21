@@ -1,10 +1,10 @@
 // Ionic Starter App
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
 
+//*************************** Sandra :start ***************************************
+angular.module('starter', ['ionic','ngCordova','starter.controllers','starter.factories'])
+
+//*************************** Sandra :end ***************************************
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -22,3 +22,30 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+//*************************** Jose :start ***************************************
+.config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider,$httpProvider){
+  $stateProvider
+    .state('page1',{
+      url: "/page1",
+      templateUrl:'templates/page1.html'
+    })
+    .state('page2',{
+      url:"/page2",
+      templateUrl: 'templates/page2.html',
+      controller: 'customersCtrl'
+      
+    })
+    .state('map',{
+      url:"/map",
+      templateUrl: 'templates/map.html',
+      controller: 'mapController'
+      
+    })
+    
+    $urlRouterProvider.otherwise('/page1');
+    //$ionicConfigProvider.views.swipeBackEnabled(false);
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
+    
+});
+//*************************** Jose :end ***************************************
